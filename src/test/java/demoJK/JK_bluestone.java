@@ -37,6 +37,8 @@ public class JK_bluestone {
 		Reporter.log(amount, true);
 		
 		Assert.assertEquals(amount, "Rs 15,000");
+		
+		System.out.println("EXecution done");
 		driver.close();
 	}
 
