@@ -5,8 +5,7 @@
     <classes>
       <class name="demoJK.Bluestone_10"/>
       <class name="demoJK.Bluestone_5Per"/>
-      <class name="demoJK.JK_bluestone"/>
-      <class name="demoJK.JKDemotest"/>
+      <class name="demoJK.Bluestone_1gmCoin"/>
       <class name="demoJK.Bluestone_15per"/>
     </classes>
   </test> <!-- Test -->
