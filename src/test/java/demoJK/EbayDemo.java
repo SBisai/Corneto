@@ -3,14 +3,17 @@ package demoJK;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class EbayDemo {
-	public static WebDriver driver;
+	
 	
 	public static void openBrowser(WebDriver driver, String browser) {
 		
 		if(browser.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "G:\\Java\\Selenium\\Drivers\\chromedriver.exe");
-			driver = new ChromeDriver();
+			WebDriverManager.chromedriver().setup();
+			driver= new ChromeDriver();
+			
 			
 		}
 		

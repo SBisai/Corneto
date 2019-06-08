@@ -31,7 +31,7 @@ public class Bluestone_15per {
 		
 		action.moveToElement(offers).build().perform();
 		Thread.sleep(3000);
-		WebElement perOfferLink = driver.findElement(By.xpath("//span[text()='Flat 5% Off']"));
+		WebElement perOfferLink = driver.findElement(By.xpath("//span[text()='Flat 15% Off']"));
 		perOfferLink.click();
 		Thread.sleep(3000);
 		
